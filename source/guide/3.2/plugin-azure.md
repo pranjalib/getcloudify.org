@@ -245,7 +245,7 @@ key_data:  |
 
 # Relationships
 
-A [relationship](reference-terminology.html#relationship) represents a dependency and/or a connection between [nodes](reference-terminology.html#node) in Cloudify For example, a virtaul machine can be created within a Resource Group. Or a NIC can depend on a Public IP.
+A [relationship](reference-terminology.html#relationship) represents a dependency and/or a connection between [nodes](reference-terminology.html#node) in Cloudify For example, a virtual machine can be created within a Resource Group. Or a NIC can depend on a Public IP.
 Oftentimes, a relationship may just require that one node is created before another, because some runtime property of it is required by another node.
 However, sometimes, we map relationship behavior to plugin operations. The following plugin relationship operations are defined in the Azure plugin:
 
